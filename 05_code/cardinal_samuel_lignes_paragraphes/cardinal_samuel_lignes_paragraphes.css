@@ -1,0 +1,22 @@
+body {
+  font-family:Nunito;
+}
+
+.texteHistoire {
+  text-align:center;
+  margin: 0px 60px;
+}
+
+.parag {
+  text-align:left;
+  margin-left: 290px;
+  margin-top:100px;
+  font-size:20px;
+}
+
+.line {
+  width:100px;
+  height:2px;
+  background-color:black;
+  margin-left: 290px;
+}
