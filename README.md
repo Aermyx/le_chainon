@@ -3,8 +3,6 @@ Revisite du site Web Le Chaînon par l'équipe Rebels^3
 
 
 DataLog:
-
-________
 ----------------------------------------------------
 
 18 septembre: 
