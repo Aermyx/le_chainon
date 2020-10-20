@@ -29,6 +29,8 @@ DataLog:
 
 -Création du dossier "05_code", contenant le futur code servant à la création du site
 
+-Création du dossier "02_contenu_text", contenant tout le texte du site
+
 -Création des dossiers séparant les divers format d'images
 
 -Mise à jour d'éléments
