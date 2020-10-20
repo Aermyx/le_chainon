@@ -11,15 +11,18 @@ DataLog:
 
 -Création du Github Le Chaînon
 
+
 29 septembre: 
 
 -Création de la Hiérarchie de base
 
 -Ajout d'éléments disponible
 
+
 18 octobre: 
 
 -Ajout d'images servant aux galeries
+
 
 20 octobre: 
 
