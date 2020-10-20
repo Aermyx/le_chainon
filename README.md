@@ -11,6 +11,7 @@ DataLog:
 
 -Création du Github Le Chaînon
 
+----------------------------------------------------
 
 29 septembre: 
 
@@ -18,11 +19,13 @@ DataLog:
 
 -Ajout d'éléments disponible
 
+----------------------------------------------------
 
 18 octobre: 
 
 -Ajout d'images servant aux galeries
 
+----------------------------------------------------
 
 20 octobre: 
 
@@ -33,3 +36,5 @@ DataLog:
 -Création des dossiers séparant les divers format d'images
 
 -Mise à jour d'éléments
+
+----------------------------------------------------
