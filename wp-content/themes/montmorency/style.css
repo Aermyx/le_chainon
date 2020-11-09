@@ -1,15 +1,10 @@
 /*
-Theme Name: Montmorency
-Author: Simon Arnold
-Author URI: https://smnarnold.com
-Description: Thème de base pour apprendre à faire un site Wordpress.
+Theme Name: Le Chaînon
+Author: Rebels^3
+Author URI: 
+Description: Thème pour la réplique de Le chaînon par l'équipe Rebels^3
 Version: 1.0
 -------------------------------------------------------------- */
-/*
-C'est le moment d'effacer ce commentaire et d'écrire du vrai
-  ___  ____  ____ 
- / __)/ ___)/ ___)
-( (__ \___ \\___ \
- \___)(____/(____/
- 
- */
+@import "alex.css" screen;
+@import "sam.css" screen;
+@import "will.css" screen;
