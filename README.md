@@ -52,3 +52,13 @@ DataLog:
 -Tentative de création du .gitignore
 
 ---
+
+9 novembre:
+
+-Ajout des pages de style individuelles
+
+-Mise à jour des informations du thème
+
+-Mise à jour du ReadMe
+
+---
