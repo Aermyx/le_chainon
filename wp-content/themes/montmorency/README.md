@@ -1,4 +1,4 @@
-Montmorency
+Le Chaînon
 ===============
 
 Un thème de base pour bien commencer avec Wordpress

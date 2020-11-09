@@ -268,7 +268,6 @@ if ( have_posts() ) :
             </div>
             <div class="wrapper chainonChiffres">
                 <h3 class="titre chainonChiffres">Le Chaînon en Chiffres</h3>
-                
             </div>
         </div>
 
