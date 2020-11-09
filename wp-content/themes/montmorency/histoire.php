@@ -11,7 +11,6 @@ if ( have_posts() ) :
 	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
 	while ( have_posts() ) : the_post(); 
 ?>
-
 	<article>
 		<h2>
 			<?php the_title(); 
@@ -268,9 +267,42 @@ if ( have_posts() ) :
             </div>
             <div class="wrapper chainonChiffres">
                 <h3 class="titre chainonChiffres">Le Chaînon en Chiffres</h3>
+                <div class="contenu samuel chainonChiffres">
+                    <div class="carres1">
+                        <div class="carre">
+                        <div class="texteCarre"> 1932 : </br> Année de la construction </div>
+                        </div>
+                        <div class="carre">
+                        <div class="texteCarre"> 66 : </br>Nombre de femmes hébergées pour plus d'une nuit</div>
+                        </div>
+                        <div class="carre">
+                        <div class="texteCarre">105 : </br>Nombre d'employés</div>
+                        </div>
+                    </div>
+
+                    <div class="carres2">
+                        <div class="carre">
+                        <div class="texteCarre">200 : </br> Nombre de bénévoles</div>
+                        </div>
+                        <div class="carre">
+                        <div class="texteCarre">50 000 : </br> Nombre de repas servis par année</div>
+                        </div>
+                    </div>
+
+                    <div class="carres3">
+                        <div class="carre">
+                        <div class="texteCarre">38𝇍 : </br>Coût de chacun des repas servis grâce aux dons de nourriture</div>
+                        </div>
+                        <div class="carre">
+                        <div class="texteCarre">100% </br>de l'année nous affichons complet</div>
+                        </div>
+                        <div class="carre">
+                        <div class="texteCarre">15% </br>du budget va à l'administration</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>
 

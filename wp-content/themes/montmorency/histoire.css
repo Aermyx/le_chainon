@@ -1,0 +1,83 @@
+
+.titre.chainonChiffres{
+    
+}
+
+/* Animation Samuel Chaînon en chiffres */
+
+@media screen and (min-width:768px) {
+    .carres1, .carres2, .carres3{
+        display:flex;
+        justify-content:space-around;
+        margin:20px 0px;
+    }
+
+   .carre{
+        background-color:#9999CC;
+        width:300px;
+        height:300px;
+        transform: translateY(50%);
+        color:white;
+        font-size:30px;
+        font-family:Nunito;
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        padding:0px 12px;
+        border:solid black 4px;
+   }
+
+    .texteCarre{
+        margin: auto;
+        text-align:center;
+        text-shadow: 2px 0px grey;
+    }
+}
+   
+@media screen and (max-width:768px) {
+    .carres1, .carres2, .carres3{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        color:white;
+        font-size:38px;
+        font-family:Nunito;
+        margin-left:25%;
+    }
+     
+     
+   .carre{
+        background-color:#9999CC;
+        width:300px;
+        height:300px;
+        transform: translateY(50%);
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        padding:0px 12px;
+        border:solid black 4px;
+    }
+
+    .texteCarre{
+        margin: auto;
+        text-align:center;
+    }
+   
+@media screen and (max-width:375px) {
+    .carres1, .carres2, .carres3{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        color:white;
+        font-size:22px;
+        font-family:Nunito;
+        margin-left:15%;
+    }
+
+    .carre{
+        background-color:#9999CC;
+        width:200px;
+        height:200px;
+        transform: translateY(50%);
+    }
+}
