@@ -36,3 +36,19 @@ DataLog:
 -Mise à jour d'éléments
 
 ----------------------------------------------------
+
+27 octobre:
+
+-Ajout de la version anglaise du copydeck
+
+---
+
+3 novembre:
+
+-Ajout du dossier wp_content à la racine du github
+
+-Ajustement de la hiérarchie (asw_extras contient toute l'ancienne hiérarchie de dossiers)
+
+-Tentative de création du .gitignore
+
+---
