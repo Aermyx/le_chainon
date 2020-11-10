@@ -302,6 +302,42 @@ if ( have_posts() ) :
                     </div>
                 </div>
             </div>
+            <div class="wrapper galerie">
+                <h3 class="titre galerie">Galerie</h3>
+                <div class="contenu galerie">
+                    <div class="divText">
+                        <p class="text">Galerie --></p>
+                    </div>
+                    <div class="boxImg boxImg1">
+                        <img src="https://imgur.com/LB7wz15.png">
+                    </div>
+                    <div class="boxImg boxImg2">
+                        <img src="https://imgur.com/fYGVoRU.jpg">
+                    </div>
+                    <div class="boxImg boxImg3">
+                        <img src="https://imgur.com/ELmhelh.jpg">
+                    </div>
+                    <div class="boxImg boxImg4">
+                        <img src="https://imgur.com/eLePyqx.jpg">
+                    </div>
+                    <div class="boxImg boxImg5">
+                        <img src="https://imgur.com/z2EL8NT.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper don">
+                <h3 class="titre don">Faites un don</h3>
+                <div class="contenu don">
+                    <div class="temps don">
+                        <button class="bouton don">Don en Temps</button>
+                        <div class="rond don"></div>
+                    </div>
+                    <div class="argent don">
+                        <button class="bouton don">Don en Argent</button>
+                        <div class="rond don"></div>
+                    </div> 
+                </div>
+            </div>
         </div>
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>
