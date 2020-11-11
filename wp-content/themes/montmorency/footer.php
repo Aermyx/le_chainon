@@ -13,9 +13,9 @@
 				<span class="numTel"><?php the_field("numero_de_telephone"); ?></span>
 			</p>
 			<p class="adresseComplete">
-				<span class="ligneAdresse"><?php the_field("ligne_dadresse"); ?></span>
-				<span class="ville"><?php the_field("ville"); ?></span>
-				<span class="pays"><?php the_field("pays"); ?></span>
+				<span class="ligneAdresse"><?php the_field("ligne_dadresse"); ?></span><br>
+				<span class="ville"><?php the_field("ville"); ?>, </span>
+				<span class="pays"><?php the_field("pays"); ?></span><br>
 				<span class="codePostal"><?php the_field("code_postal"); ?></span>
 			</p>
 		</div>
