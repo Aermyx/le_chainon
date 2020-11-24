@@ -33,6 +33,8 @@ if ( have_posts() ) :
 </div>
 <div class="sc_date_evenement_individuel"><?php the_field('date_evenement_individuel'); ?>
 </div>
+<div class="sc_lieu_evenement_individuel"><?php the_field('lieu_evenement_individuel'); ?>
+</div>
 
 <div class = "sc_section_evenement_individuel"> 
   <img class="sc_img_evenement_individuel" src="<?php the_field('image_evenement_individuel'); ?>"><div class= "<?php the_field('texte_evenement_individuel'); ?>">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

@@ -1,4 +1,41 @@
 @media screen and (min-width:768px) {
+    /*Style Événement individuel*/
+    .sc_titre_evenement_individuel {
+        text-align: center;
+        color: #9999CC;
+        font-family: Nunito;
+        font-size: 25pt;
+    }
+    .sc_date_evenement_individuel {
+        text-align: center;
+        font-family: Nunito;
+        font-size: 11pt;
+    }
+    .sc_lieu_evenement_individuel {
+        text-align: center;
+        font-family: Nunito;
+        font-size: 11pt;
+        margin-bottom: 35px;
+    }
+    .sc_section_evenement_individuel {
+        display: flex;
+    }
+    .sc_img_evenement_individuel {
+        width: 100vw;
+        border-radius: 10px;
+    }
+    .sc_texte_evenement_individuel {
+        width: 90%;
+        margin: 50px;
+        font-size: 16pt;
+        font-family: "Playfair Display";
+    }
+    .sc_fleches {
+        font-size: 50px;
+        color: #9999CC;
+        text-align: center;
+        margin-top: 35px;
+    }
     /*Style Contact*/
     .wpcf7-form {
         transform: translate(70%, 20%);
@@ -184,6 +221,12 @@
         font-family: Nunito;
         font-size: 11pt;
         margin-bottom: 20px;
+    }
+    .sc_lieu_evenement_individuel {
+        text-align: center;
+        font-family: Nunito;
+        font-size: 11pt;
+        margin-bottom: 35px;
     }
     .sc_section_evenement_individuel {
         display: flex;
@@ -385,6 +428,12 @@
         font-size: 20pt;
     }
     .sc_date_evenement_individuel {
+        text-align: center;
+        font-family: Nunito;
+        font-size: 11pt;
+        margin-bottom: 20px;
+    }
+    .sc_lieu_evenement_individuel {
         text-align: center;
         font-family: Nunito;
         font-size: 11pt;
