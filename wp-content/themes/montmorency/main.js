@@ -23,3 +23,15 @@ const tl_wr_anim = gsap.timeline({
 .to("#O", {strokeDashoffset:0}, "-=0.25")
 .to("#N-2", {strokeDashoffset:0}, "-=0.25")
 .to("path", {fillOpacity:1, strokeOpacity:0})
+
+// Menu Principal
+
+const dropdowns = document.querySelectorAll(".menu-item-has-children");
+
+dropdowns.forEach(dropdown => {
+    dropdown.addEventListener("click", () => {
+        const subMenu = dropdown.querySelector(".sub-menu");
+
+        subMenu.classList.toggle("open");
+    })
+})
