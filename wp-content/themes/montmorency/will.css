@@ -1,0 +1,207 @@
+
+
+/* Natif Site complet */
+
+.contenuSiteComplet{
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Animation Alexandra Bouton */
+
+.wrapper.don{
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.titre.don{
+    border-bottom: 3px #9999CC solid;
+    font-size: 3em;
+    color: #9999CC;
+    margin-bottom: 5vh;
+}
+
+.contenu.don{
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+
+.argent.don, .temps.don{
+    flex-basis: 30%;
+}
+  
+.bouton.don{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #9999CC;
+    color: white;
+    position: relative;
+    outline: none;
+}
+  
+.bouton:hover.don{
+    background-color: purple;
+}
+  
+.rond.don{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    position: absolute;
+    opacity: 0;
+}
+
+/* Footer */
+
+.footer.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.infosLeChainon{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.lienReseauxSociaux{
+    width: 75%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5vh 0;
+}
+
+.facebook, .instagram, .twitter{
+    height: 10vh;
+    width: 10vh;
+    background-color: #9999CC;
+    border-radius: 100px;
+}
+
+.lienReseauxSociaux div img{
+    height: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.twitter img{
+    height: 40% !important; 
+}
+
+.ligneReseauxSociaux{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    background-color: #9999CC;
+}
+
+.piedFooter{
+    display: flex;
+    width: 100%;
+}
+
+.mentionsLegales{
+    position: relative;
+    flex-basis: calc(100% / 3);
+
+}
+
+.retourTop{
+    position: relative;
+    flex-basis: calc(100% / 3);
+}
+
+.retourTop img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Animation Logo WIlliam */
+
+.logoBasPage{
+    flex-basis: calc(100% / 3);
+    position: relative;
+}
+
+path{
+	stroke:black;
+	stroke-width:1;
+	fill-opacity:0;
+}
+
+#L{
+	stroke-dasharray: 330;
+	stroke-dashoffset: 330;
+}
+
+#E{
+	stroke-dasharray: 530;
+	stroke-dashoffset: 530;
+}
+
+#C{
+	stroke-dasharray: 370;
+	stroke-dashoffset: 370;
+}
+
+#H{
+	stroke-dasharray: 470;
+	stroke-dashoffset: 470;
+}
+
+#A{
+	stroke-dasharray: 390;
+	stroke-dashoffset: 390;
+	stroke:#99c;
+}
+
+#I{
+	stroke-dasharray: 130;
+	stroke-dashoffset: 130;
+}
+
+#Nuage{
+	stroke-dasharray: 190;
+	stroke-dashoffset: 190;
+	stroke:#99c;
+}
+
+#N{
+	stroke-dasharray: 490;
+	stroke-dashoffset: 490;
+}
+
+#O{
+	stroke-dasharray: 290;
+	stroke-dashoffset: 290;
+}
+
+#N-2{
+	stroke-dasharray: 490;
+	stroke-dashoffset: 490;
+}

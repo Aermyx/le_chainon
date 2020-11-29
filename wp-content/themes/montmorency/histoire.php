@@ -325,19 +325,6 @@ if ( have_posts() ) :
                     </div>
                 </div>
             </div>
-            <div class="wrapper don">
-                <h3 class="titre don">Faites un don</h3>
-                <div class="contenu don">
-                    <div class="temps don">
-                        <button class="bouton don">Don en Temps</button>
-                        <div class="rond don"></div>
-                    </div>
-                    <div class="argent don">
-                        <button class="bouton don">Don en Argent</button>
-                        <div class="rond don"></div>
-                    </div> 
-                </div>
-            </div>
         </div>
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>

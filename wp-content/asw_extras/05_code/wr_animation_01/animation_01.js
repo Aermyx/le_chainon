@@ -1,4 +1,4 @@
-const tl = gsap.timeline({
+const tl_wr = gsap.timeline({
 	defaults: {
 		ease: "linear",
 		duration: 0.5,
