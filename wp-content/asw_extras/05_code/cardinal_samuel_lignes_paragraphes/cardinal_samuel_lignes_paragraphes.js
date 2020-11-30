@@ -2,13 +2,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 /*Apparition des lignes*/
-const tl = gsap.timeline({defaults: {ease: 'linear'},
+const tl_anim_sam = gsap.timeline({
+  defaults: {
+    ease: 'linear'
+  },
 })
 .to('.parag1', { 
   width: '800px',
   scrollTrigger: {
     scrub: 0.3,
-    markers:true,
     start: 'top 15%',
     end: 'bottom 27%',
     trigger: '.un',
