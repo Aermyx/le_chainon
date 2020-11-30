@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // Animation logo Will
-const tl_wr_anim = gsap.timeline({
+const tl_wr_anim_logo = gsap.timeline({
 	defaults: {
 		ease: "linear",
 		duration: 0.5,
@@ -35,3 +35,34 @@ dropdowns.forEach(dropdown => {
         subMenu.classList.toggle("open");
     })
 })
+
+// Marge Histoire
+
+
+
+// Ligne Paragraphe Histoire
+
+const blocDates = document.querySelectorAll(".blocDate");
+
+blocDates.forEach(blocDate => {
+    const ligneParagraphes = blocDate.querySelector(".ligne");
+
+    gsap.timeline({
+        defaults: {
+            duration: 1,
+            ease: "power2.out",
+        },
+        scrollTrigger: {
+            markers: true,
+            trigger: blocDate,
+            start: "top 40%",
+            end: "bottom 75%",
+            toggleActions: "restart complete reverse none",
+        }
+    })
+})
+
+
+
+// Le Chaînon en chiffres
+
