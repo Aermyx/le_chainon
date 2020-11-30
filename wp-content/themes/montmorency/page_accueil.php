@@ -25,47 +25,47 @@ if (have_posts()) :
 			<?php the_content();
 			/* Affiche le contenu principal de la page */
 			?>
-			<div class="titre"><?php the_field('sc_titre_01'); ?></div>
+			<h2><?php the_field('sc_titre_01'); ?></h2>
 
-			<div class="ligne_titre"></div>
+			<div class="sc_ligne_titre"></div>
 
-			<div class="carres_services">
-				<div class="service">
-					<div class="texte_service"> <?php the_field('sc_service_01'); ?></div>
+			<div class="sc_carres_services">
+				<div class="sc_service">
+					<div class="sc_texte_service"> <?php the_field('sc_service_01'); ?></div>
 				</div>
 				<div class="service">
-					<div class="texte_service"> <?php the_field('sc_service_02'); ?></div>
+					<div class="sc_texte_service"> <?php the_field('sc_service_02'); ?></div>
 				</div>
 				<div class="service">
-					<div class="texte_service"> <?php the_field('sc_service_03'); ?> </div>
+					<div class="sc_texte_service"> <?php the_field('sc_service_03'); ?> </div>
 				</div>
 				<div class="service">
-					<div class="texte_service"> <?php the_field('sc_service_04'); ?></div>
+					<div class="sc_texte_service"> <?php the_field('sc_service_04'); ?></div>
 				</div>
 			</div>
 
-			<div class="titre"><?php the_field('sc_titre_02'); ?></div>
+			<div class="sc_titre"><?php the_field('sc_titre_02'); ?></div>
 
-			<div class="ligne_titre"> </div>
+			<div class="sc_ligne_titre"> </div>
 
-			<div class="carres_nouvelles">
+			<div class="sc_carres_nouvelles">
 
-				<div class="nouvelle">
-					<div class="texte_nouvelle"><?php the_field('sc_texte_nouvelle_01'); ?></div>
+				<div class="sc_nouvelle">
+					<div class="sc_texte_nouvelle"><?php the_field('sc_texte_nouvelle_01'); ?></div>
 					<img src="<?php the_field('sc_nouvelle_01'); ?>">
-					<button class="bouton_nouvelle">Lire plus </button>
+					<button class="sc_bouton_nouvelle">Lire plus </button>
 				</div>
 
-				<div class="nouvelle">
-					<div class="texte_nouvelle"> <?php the_field('sc_texte_nouvelle_02'); ?></div>
+				<div class="sc_nouvelle">
+					<div class="sc_texte_nouvelle"> <?php the_field('sc_texte_nouvelle_02'); ?></div>
 					<img src="<?php the_field('sc_nouvelle_02'); ?>">
-					<button class="bouton_nouvelle">Lire plus </button>
+					<button class="sc_bouton_nouvelle">Lire plus </button>
 				</div>
 
-				<div class="nouvelle">
-					<div class="texte_nouvelle"> <?php the_field('sc_texte_nouvelle_03'); ?></div>
+				<div class="sc_nouvelle">
+					<div class="sc_texte_nouvelle"> <?php the_field('sc_texte_nouvelle_03'); ?></div>
 					<img src="<?php the_field('sc_nouvelle_03'); ?>">
-					<button class="bouton_nouvelle">Lire plus </button>
+					<button class="sc_bouton_nouvelle">Lire plus </button>
 				</div>
 
 			</div>

@@ -39,7 +39,7 @@
     /*Style Contact*/
     .wpcf7-form {
         transform: translate(70%, 20%);
-        position: absolute;
+        position: relative;
     }
     .wpcf7-text,
     .wpcf7-submit {
@@ -248,7 +248,7 @@
     /*Style Contact*/
     .wpcf7-form {
         transform: translate(60%, 20%);
-        position: absolute;
+        position: relative;
     }
     .wpcf7-text,
     .wpcf7-submit {
@@ -458,7 +458,7 @@
     /*Style Contact*/
     .wpcf7-form {
         transform: translate(50%, 20%);
-        position: absolute;
+        position: relative;
     }
     .wpcf7-text,
     .wpcf7-submit {
