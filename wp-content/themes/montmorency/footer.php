@@ -12,11 +12,11 @@
             <h3 class="titre don">Faites un don</h3>
             <div class="contenu don">
                 <div class="temps don">
-                    <button class="bouton don">Don en Temps</button>
+                    <a href="https://www.lechainon.org/fr/faites-un-don"><button class="bouton don">Don en Temps</button></a>
                     <div class="rond don"></div>
                 </div>
                 <div class="argent don">
-                    <button class="bouton don">Don en Argent</button>
+                    <a href="https://www.lechainon.org/fr/faites-un-don"><button class="bouton don">Don en Argent</button></a>
                     <div class="rond don"></div>
                 </div> 
             </div>
@@ -34,15 +34,21 @@
 		</div>
 		<div class="lienReseauxSociaux">
 			<div class="ligneReseauxSociaux"></div>
-			<div class="facebook">
-				<img src="https://imgur.com/u8ZHNgI.png" alt="" srcset="">
-			</div>
-			<div class="instagram">
-				<img src="https://imgur.com/Kdxpp3J.png" alt="" srcset="">
-			</div>
-			<div class="twitter">
-				<img src="https://imgur.com/FI5UgE7.png" alt="" srcset="">
-			</div>
+			<a href="https://www.facebook.com/lechainonmontreal">
+				<div class="facebook">
+					<img src="https://imgur.com/u8ZHNgI.png" alt="" srcset="">
+				</div>
+			</a>
+			<a href="https://www.instagram.com/lechainon_mtl/?hl=fr-ca">
+				<div class="instagram">
+					<img src="https://imgur.com/Kdxpp3J.png" alt="" srcset="">
+				</div>
+			</a>
+			<a href="https://twitter.com/lechainonmtl?lang=fr">
+				<div class="twitter">
+					<img src="https://imgur.com/FI5UgE7.png" alt="" srcset="">
+				</div>
+			</a>
 		</div>
 		<div class="piedFooter">
 			<div class="mentionsLegales">
