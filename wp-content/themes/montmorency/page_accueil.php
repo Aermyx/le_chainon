@@ -20,7 +20,7 @@ if (have_posts()) :
 			</div>
 			<h3 class="sc_titre_page"><?php the_field('sc_titre_01'); ?></h3>
 			<div class="sc_ligne_titre"></div>
-			<div class="sc_carres_services">
+			<div class="sc_carres_services"> 
 				<div class="sc_service">
 					<div class="sc_texte_service"> <a href="<?php the_field('lien_service_01'); ?>" class="sc_lien_service"><?php the_field('sc_service_01'); ?></a></div>
 				</div>
