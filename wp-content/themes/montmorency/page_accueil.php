@@ -44,19 +44,19 @@ if (have_posts()) :
 				<div class="sc_nouvelle">
 					<div class="sc_texte_nouvelle"><?php the_field('sc_texte_nouvelle_01'); ?></div>
 					<img src="<?php the_field('sc_nouvelle_01'); ?>">
-					<button class="sc_bouton_nouvelle">Lire plus </button>
+					<button class="sc_bouton_nouvelle"><a href="<?php the_field('lien_nouvelle_01'); ?>" class="sc_lien_nouvelle"><?php the_field('bouton_lire_plus_01'); ?></a> </button>
 				</div>
 
 				<div class="sc_nouvelle">
 					<div class="sc_texte_nouvelle"> <?php the_field('sc_texte_nouvelle_02'); ?></div>
 					<img src="<?php the_field('sc_nouvelle_02'); ?>">
-					<button class="sc_bouton_nouvelle">Lire plus </button>
+					<button class="sc_bouton_nouvelle"><a href="<?php the_field('lien_nouvelle_02'); ?>" class="sc_lien_nouvelle"><?php the_field('bouton_lire_plus_02'); ?></a> </button>
 				</div>
 
 				<div class="sc_nouvelle">
 					<div class="sc_texte_nouvelle"> <?php the_field('sc_texte_nouvelle_03'); ?></div>
 					<img src="<?php the_field('sc_nouvelle_03'); ?>">
-					<button class="sc_bouton_nouvelle">Lire plus </button>
+					<button class="sc_bouton_nouvelle"><a href="<?php the_field('lien_nouvelle_03'); ?>" class="sc_lien_nouvelle"><?php the_field('bouton_lire_plus_03'); ?></a> </button>
 				</div>
 			</div>
 		</article>
