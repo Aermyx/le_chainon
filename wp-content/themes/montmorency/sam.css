@@ -214,6 +214,10 @@
         border-radius: 10px;
         text-align: center;
     }
+    .sc_lien_service:link,
+    .sc_lien_service:visited {
+        text-decoration: none;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -432,6 +436,10 @@
         cursor: pointer;
         border-radius: 10px;
         text-align: center;
+    }
+    .sc_lien_service:link,
+    .sc_lien_service:visited {
+        text-decoration: none;
     }
 }
 
@@ -662,5 +670,9 @@
         cursor: pointer;
         border-radius: 10px;
         text-align: center;
+    }
+    .sc_lien_service:link,
+    .sc_lien_service:visited {
+        text-decoration: none;
     }
 }
