@@ -14,15 +14,16 @@ if (have_posts()) :
 ?>
 
 		<article>
-			<<<<<<< Updated upstream=======<?php if (!is_front_page()) :
+			<?php if (!is_front_page()) :
 				/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?> <?php endif; ?> <h2 class="sc_titre_page"><?php the_field('titre'); ?></h2>
+			
+			<h2 class="sc_titre_page"><?php the_field('titre'); ?></h2>
 
-				<div class="sc_ligne_titre"></div>
-				>>>>>>> Stashed changes
+			<div class="sc_ligne_titre"></div>
 
-				<?php the_content();
-				/* Affiche le contenu principal de la page */
-				?>
+			<?php the_content();
+			/* Affiche le contenu principal de la page */
+			?>
 
 		</article>
 	<?php endwhile; // Fermeture de la boucle 

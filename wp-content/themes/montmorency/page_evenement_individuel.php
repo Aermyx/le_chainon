@@ -14,26 +14,10 @@ if (have_posts()) :
 ?>
 
 		<article>
-<<<<<<< Updated upstream
-			<h2><?php the_field('titre'); ?></h2>
-			<div class="sc_ligne_titre"> </div>
-			<div class="sc_titre_evenement_individuel"><?php the_field('nom_evenement_individuel'); ?>
-			</div>
-=======
-			<?php if (!is_front_page()) :
-				/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?>
-			<?php endif; ?>
-
-			<?php the_content();
-			/* Affiche le contenu principal de la page */
-			?>
 			<h2 class="sc_titre_page"><?php the_field('titre'); ?></h2>
-
 			<div class="sc_ligne_titre"> </div>
-
 			<h3 class="sc_titre_evenement_individuel"><?php the_field('nom_evenement_individuel'); ?>
 			</h3>
->>>>>>> Stashed changes
 			<div class="sc_date_evenement_individuel"><?php the_field('date_evenement_individuel'); ?>
 			</div>
 			<div class="sc_lieu_evenement_individuel"><?php the_field('lieu_evenement_individuel'); ?>
