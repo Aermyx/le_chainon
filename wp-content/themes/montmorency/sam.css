@@ -215,8 +215,11 @@
         text-align: center;
     }
     .sc_lien_service:link,
-    .sc_lien_service:visited {
+    .sc_lien_service:visited,
+    .sc_lien_service:active,
+    .sc_lien_service:hover {
         text-decoration: none;
+        color: white;
     }
 }
 
@@ -438,8 +441,11 @@
         text-align: center;
     }
     .sc_lien_service:link,
-    .sc_lien_service:visited {
+    .sc_lien_service:visited,
+    .sc_lien_service:active,
+    .sc_lien_service:hover {
         text-decoration: none;
+        color: white;
     }
 }
 
@@ -672,7 +678,10 @@
         text-align: center;
     }
     .sc_lien_service:link,
-    .sc_lien_service:visited {
+    .sc_lien_service:visited,
+    .sc_lien_service:active,
+    .sc_lien_service:hover {
         text-decoration: none;
+        color: white;
     }
 }
