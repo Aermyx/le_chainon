@@ -224,6 +224,48 @@ header nav{
     opacity: 0;
 }
 
+/* Équipe */
+
+.titrePage{
+    border-bottom: 3px #9999CC solid;
+    font-size: 3em;
+    color: #9999CC;
+    margin-bottom: 5vh;
+}
+
+.wrapperEquipe{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boitePerso{
+    box-sizing: border-box;
+    background-color: #9999CC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 27%;
+    height: 20vw;
+    position: relative;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.boitePerso .nom, .boitePerso .poste{
+    width: 100%;
+    position: absolute;
+}
+
+.boitePerso .nom{
+    top: 35%;
+}
+
+.boitePerso .poste{
+    top: 55%;
+}
+
 /* Footer */
 
 .footer.wrapper{
