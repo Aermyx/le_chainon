@@ -14,7 +14,7 @@ if (have_posts()) :
 ?>
 
 		<article>
-			<h2 class="sc_titre_page"><?php the_field('titre'); ?></h2>
+			<h2 class="sc_titre_page"><?php the_field('titre_evenement'); ?></h2>
 			<div class="sc_ligne_titre"> </div>
 			<h3 class="sc_titre_evenement_individuel"><?php the_field('nom_evenement_individuel'); ?>
 			</h3>

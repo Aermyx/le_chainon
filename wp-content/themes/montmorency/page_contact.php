@@ -17,7 +17,7 @@ if (have_posts()) :
 			<?php if (!is_front_page()) :
 				/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?> <?php endif; ?> <h2 class="sc_titre_page"><?php the_field('titre'); ?></h2>
 			
-			<h2 class="sc_titre_page"><?php the_field('titre'); ?></h2>
+			<h2 class="sc_titre_page">Contact</h2>
 
 			<div class="sc_ligne_titre"></div>
 
