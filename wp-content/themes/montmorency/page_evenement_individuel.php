@@ -2,7 +2,6 @@
 
 /**
  * 	Template Name: Page événement individuel
- * 	Template Post Type: evenement_individuel
  */
 
 // Appel le fichier header.php
@@ -15,10 +14,10 @@ if (have_posts()) :
 ?>
 
 		<article>
-			<h2><?php the_field('titre'); ?></h2>
+			<h2 class="sc_titre_page"><?php the_field('titre_evenement'); ?></h2>
 			<div class="sc_ligne_titre"> </div>
-			<div class="sc_titre_evenement_individuel"><?php the_field('nom_evenement_individuel'); ?>
-			</div>
+			<h3 class="sc_titre_evenement_individuel"><?php the_field('nom_evenement_individuel'); ?>
+			</h3>
 			<div class="sc_date_evenement_individuel"><?php the_field('date_evenement_individuel'); ?>
 			</div>
 			<div class="sc_lieu_evenement_individuel"><?php the_field('lieu_evenement_individuel'); ?>
@@ -28,10 +27,8 @@ if (have_posts()) :
 				<div class="sc_texte_evenement_individuel"><?php the_field('texte_evenement_individuel'); ?> </div>
 			</div>
 			<div class="sc_fleches">
-				<span class="sc_fleche_precedent"> ←
-				</span>
-				<span class="sc_fleche_suivant"> →
-				</span>
+				<a href="<?php the_field('evenement_precedent'); ?>" class="sc_fleche_precedent">←</a>
+				<a href="<?php the_field('evenement_precedent'); ?>" class="sc_fleche_suivant">→</a>
 			</div>
 		</article>
 	<?php endwhile; // Fermeture de la boucle 

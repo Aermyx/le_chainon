@@ -18,24 +18,24 @@ if (have_posts()) :
 				<div class="objectif"><?php the_field('objectif'); ?></div>
 				<div class="temoignage"><?php the_field('temoignage'); ?></div>
 			</div>
-			<div class="sc_titre"><?php the_field('sc_titre_01'); ?></div>
+			<h3 class="sc_titre_page"><?php the_field('sc_titre_01'); ?></h3>
 			<div class="sc_ligne_titre"></div>
 			<div class="sc_carres_services">
 				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_01'); ?></div>
 				</div>
-				<div class="service">
+				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_02'); ?></div>
 				</div>
-				<div class="service">
+				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_03'); ?> </div>
 				</div>
-				<div class="service">
+				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_04'); ?></div>
 				</div>
 			</div>
 
-			<div class="sc_titre"><?php the_field('sc_titre_02'); ?></div>
+			<h3 class="sc_titre_page"><?php the_field('sc_titre_02'); ?></h3>
 
 			<div class="sc_ligne_titre"> </div>
 
@@ -67,6 +67,6 @@ if (have_posts()) :
 ?>
 	<h2>Oh oh, nous n'arrivons pas à voir la page demandée</h2>
 	<img src="https://i.giphy.com/media/l0HU20BZ6LbSEITza/giphy.webp" alt="Page invisible">
-<?php endif; 
+<?php endif;
 // Appel le fichier footer.php
 get_footer(); ?>
