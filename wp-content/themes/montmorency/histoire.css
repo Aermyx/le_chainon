@@ -9,7 +9,7 @@ body, html{
 	height: 100%;
 }
 
-.titre.resume, .titre.datesImportantes, .titre.chainonChiffres{
+.titre.resume, .titre.datesImportantes, .titre.chainonChiffres, .titre.galerie{
     color: #9999CC;
     border-bottom: #9999CC solid 3px;
     font-size: 3em;
