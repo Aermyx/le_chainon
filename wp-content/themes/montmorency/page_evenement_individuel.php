@@ -15,14 +15,6 @@ if (have_posts()) :
 ?>
 
 		<article>
-			<?php if (!is_front_page()) :
-				/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?>
-				<h2>
-					<?php the_title();
-					/* Titre de la page */ ?>
-				</h2>
-			<?php endif; ?>
-
 			<?php the_content();
 			/* Affiche le contenu principal de la page */
 			?>

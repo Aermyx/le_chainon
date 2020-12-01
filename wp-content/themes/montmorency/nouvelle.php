@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Équipe
+ * Template Name: Nouvelle
  */
 
 // Appel le fichier header.php
@@ -13,7 +13,13 @@ if ( have_posts() ) :
 ?>
 
 	<article>
-		
+		<h2>
+			<?php the_title(); 
+			/* Titre de la page */ ?>
+		</h2>
+
+		<?php the_content(); 
+		/* Affiche le contenu principal de la page */ ?>
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>
 
