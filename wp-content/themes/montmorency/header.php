@@ -35,6 +35,7 @@
 	<img src="<?php the_field('image_de_fond'); ?>" alt="">
 </div>
 <div class="contenuSiteComplet">
+	<div class="gradient">
 <header>
 		<h1>
 			<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home" class="logoAccueilHeader">
@@ -48,5 +49,5 @@
 			?>
 		</nav>
 </header>
-
+</div>
 <main><!-- Débute le contenu principal de notre site -->

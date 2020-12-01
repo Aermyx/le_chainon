@@ -13,7 +13,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
+    margin: 5% 0 6% 0;
 }
 
 header h1{
@@ -106,13 +106,13 @@ header nav{
 }
 
 .divImageFond img{
-    width: 100%;
+    height: 100%;
     position: absolute;
     contain: content;
 }
 
 .divAccueil{
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -121,18 +121,17 @@ header nav{
 }
 
 .boutonDon{
-    height: 10vw;
-    width: 30vw;
     border-radius: 100px;
     background-color: #9999CC;
     color: #FFFEF5;
     position: absolute;
-    top: 5%;
+    top: 0;
     right: 0;
     outline: none;
     display: flex;
     text-align: center;
     justify-content: center;
+    padding: 3% 5%;
 }
 
 .objectif{
@@ -144,6 +143,7 @@ header nav{
     justify-content: center;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     left: 0;
     width: 30vw;
     color: #FFFEF5;
@@ -159,6 +159,7 @@ header nav{
     position: absolute;
     bottom: 0;
     right: 0;
+    transform: translateY(-50%);
     width: 30vw;
     color: #FFFEF5;
     padding: 3%;
