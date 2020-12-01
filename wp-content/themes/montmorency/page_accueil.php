@@ -22,16 +22,16 @@ if (have_posts()) :
 			<div class="sc_ligne_titre"></div>
 			<div class="sc_carres_services">
 				<div class="sc_service">
-					<div class="sc_texte_service"> <?php the_field('sc_service_01'); ?></div>
+					<div class="sc_texte_service"> <a href="<?php the_field('lien_service_01'); ?>" class="sc_lien_service"><?php the_field('sc_service_01'); ?></a></div>
 				</div>
 				<div class="sc_service">
-					<div class="sc_texte_service"> <?php the_field('sc_service_02'); ?></div>
+					<div class="sc_texte_service"> <a href="<?php the_field('lien_service_02'); ?>" class="sc_lien_service"><?php the_field('sc_service_02'); ?></a></div>
 				</div>
 				<div class="sc_service">
-					<div class="sc_texte_service"> <?php the_field('sc_service_03'); ?> </div>
+					<div class="sc_texte_service"> <a href="<?php the_field('lien_service_03'); ?>" class="sc_lien_service"><?php the_field('sc_service_03'); ?></a> </div>
 				</div>
 				<div class="sc_service">
-					<div class="sc_texte_service"> <?php the_field('sc_service_04'); ?></div>
+					<div class="sc_texte_service"> <a href="<?php the_field('lien_service_04'); ?>" class="sc_lien_service"><?php the_field('sc_service_04'); ?></a></div>
 				</div>
 			</div>
 
