@@ -9,14 +9,14 @@
 <footer>
 	<div class="wrapper footer">
 		<div class="wrapper don">
-            <h3 class="titre don">Faites un don</h3>
+            <h3 class="titre don"><?php the_field('texte_don'); ?></h3>
             <div class="contenu don">
                 <div class="temps don">
-                    <button class="bouton don">Don en Temps</button>
+                    <button class="bouton don"><a href="<?php the_field('lien_don_temps'); ?>" class="lien_don_temps"><?php the_field('don_temps'); ?></a></button>
                     <div class="rond don"></div>
                 </div>
                 <div class="argent don">
-                    <button class="bouton don">Don en Argent</button>
+                    <button class="bouton don"><a href="<?php the_field('lien_don_argent'); ?>" class="lien_don_argent"><?php the_field('don_argent'); ?></a></button>
                     <div class="rond don"></div>
                 </div> 
             </div>

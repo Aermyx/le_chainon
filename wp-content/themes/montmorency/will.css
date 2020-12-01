@@ -1,8 +1,6 @@
-
-
 /* Natif Site complet */
 
-.contenuSiteComplet{
+.contenuSiteComplet {
     width: 90%;
     position: relative;
     top: 0;
@@ -12,72 +10,72 @@
     font-size: 14.5pt;
 }
 
-.h3, .h4{
+.h3,
+.h4 {
     font-family: 'Playfair Display';
     font-size: 1.7em;
 }
 
-.h2{
+.h2 {
     font-family: 'Playfair Display';
     font-size: 3em;
 }
 
-@media screen and (max-width:768px){
-    .contenuSiteComplet{
+@media screen and (max-width:768px) {
+    .contenuSiteComplet {
         font-family: 'Nunito';
         font-size: 13pt;
     }
-    
-    .h3, .h4{
+    .h3,
+    .h4 {
         font-family: 'Playfair Display';
         font-size: 1.7em;
     }
-    
-    .h2{
+    .h2 {
         font-family: 'Playfair Display';
         font-size: 3em;
     }
 }
 
-@media screen and (max-width:375px){
-    .contenuSiteComplet{
+@media screen and (max-width:375px) {
+    .contenuSiteComplet {
         font-family: 'Nunito';
         font-size: 12pt;
     }
-    
-    .h3, .h4{
+    .h3,
+    .h4 {
         font-family: 'Playfair Display';
         font-size: 1.7em;
     }
-    
-    .h2{
+    .h2 {
         font-family: 'Playfair Display';
         font-size: 3em;
     }
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     margin: 5% 0 6% 0;
 }
 
-header h1{
+header h1 {
     display: flex;
     width: 25%;
 }
 
-.logoAccueilHeader{
+.logoAccueilHeader {
     width: 100%;
 }
 
-.logoAccueilHeader img{
+.logoAccueilHeader img {
     width: 100%;
 }
+
 
 /* Menu Principal */
 
-header nav{
+header nav {
     width: 70%;
     top: 0;
     position: relative;
@@ -86,7 +84,7 @@ header nav{
     font-family: 'Playfair Display';
 }
 
-.menu-menu-principal-container{
+.menu-menu-principal-container {
     width: 100%;
     position: absolute;
     left: 50%;
@@ -94,7 +92,7 @@ header nav{
     transform: translateX(-50%);
 }
 
-.menu{
+.menu {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -108,7 +106,7 @@ header nav{
     text-decoration: none;
 }
 
-#menu-item-123{
+#menu-item-123 {
     width: 25%;
 }
 
@@ -116,7 +114,7 @@ header nav{
     width: 100%;
 }
 
-.logoMenuPrincipal{
+.logoMenuPrincipal {
     width: 100%;
 }
 
@@ -126,25 +124,26 @@ header nav{
     font-size: 1.5em;
 }
 
-.sub-menu{
+.sub-menu {
     display: none;
     padding: 0;
     list-style-type: none;
 }
 
-.open.sub-menu{
+.open.sub-menu {
     display: block;
     position: absolute;
     z-index: 2;
 }
 
-.menu-item-has-children > a::after{
+.menu-item-has-children>a::after {
     content: " +";
 }
 
+
 /* Accueil */
 
-.divImageFond{
+.divImageFond {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -152,13 +151,13 @@ header nav{
     left: 0;
 }
 
-.divImageFond img{
+.divImageFond img {
     height: 100%;
     position: absolute;
     object-fit: cover;
 }
 
-.divAccueil{
+.divAccueil {
     height: 85vh;
     width: 100%;
     position: relative;
@@ -167,7 +166,7 @@ header nav{
     flex-direction: row-reverse;
 }
 
-.boutonDon{
+.boutonDon {
     border-radius: 100px;
     background-color: #9999CC;
     color: #FFFEF5;
@@ -181,7 +180,7 @@ header nav{
     padding: 3% 5%;
 }
 
-.objectif{
+.objectif {
     border-radius: 10px;
     background-color: #9999CC;
     outline: none;
@@ -197,7 +196,7 @@ header nav{
     padding: 3%;
 }
 
-.temoignage{
+.temoignage {
     border-radius: 10px;
     background-color: #9999CC;
     outline: none;
@@ -212,26 +211,27 @@ header nav{
     padding: 3%;
 }
 
-.temoignage span{
+.temoignage span {
     font-style: italic;
 }
 
+
 /* Animation Alexandra Bouton */
 
-.wrapper.don{
+.wrapper.don {
     width: 100%;
     position: relative;
     top: 0;
 }
 
-.titre.don{
+.titre.don {
     border-bottom: 3px #9999CC solid;
     font-size: 3em;
     color: #9999CC;
     margin-bottom: 5vh;
 }
 
-.contenu.don{
+.contenu.don {
     height: 20vh;
     width: 100%;
     position: relative;
@@ -243,14 +243,15 @@ header nav{
     margin-bottom: 10vh;
 }
 
-.argent.don, .temps.don{
+.argent.don,
+.temps.don {
     flex-basis: 30%;
     position: relative;
     top: 0;
     left: 0;
 }
-  
-.bouton.don{
+
+.bouton.don {
     height: 100%;
     width: 100%;
     border-radius: 25px;
@@ -259,37 +260,50 @@ header nav{
     position: relative;
     outline: none;
 }
-  
-.bouton:hover.don{
+
+.bouton:hover.don {
     background-color: purple;
 }
-  
-.rond.don{
+
+.rond.don {
     width: 2vw;
     height: 2vw;
     border-radius: 100px;
-    box-shadow: 0px 0px 0px 15px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
     background-color: white;
     position: absolute;
     opacity: 0;
 }
 
+.lien_don_argent:link,
+.lien_don_argent:visited,
+.lien_don_argent:active,
+.lien_don_argent:hover,
+.lien_don_temps:link,
+.lien_don_temps:visited,
+.lien_don_temps:active,
+.lien_don_temps:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
 /* Équipe */
 
-.titrePage{
+.titrePage {
     border-bottom: 3px #9999CC solid;
     font-size: 3em;
     color: #9999CC;
     margin-bottom: 5vh;
 }
 
-.wrapperEquipe{
-    display:flex;
+.wrapperEquipe {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.boitePerso{
+.boitePerso {
     box-sizing: border-box;
     background-color: #9999CC;
     display: flex;
@@ -303,44 +317,46 @@ header nav{
     border-radius: 20px;
 }
 
-.boitePerso .nom, .boitePerso .poste{
+.boitePerso .nom,
+.boitePerso .poste {
     width: 100%;
     position: absolute;
 }
 
-.boitePerso .nom{
+.boitePerso .nom {
     top: 35%;
 }
 
-.boitePerso .poste{
+.boitePerso .poste {
     top: 55%;
 }
 
+
 /* Nouvelles / Évènements */
 
-.wrapperNetE{
+.wrapperNetE {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
 
-.boiteImageVedette{
+.boiteImageVedette {
     width: 50%;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.boiteImageVedette img{
+.boiteImageVedette img {
     border-radius: 25px;
 }
 
-.zoneTexteVedette{
+.zoneTexteVedette {
     width: 50%;
     position: relative;
 }
 
-.zoneTexteVedette .lirePlus{
+.zoneTexteVedette .lirePlus {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -350,7 +366,7 @@ header nav{
     padding: 2% 5%;
 }
 
-.ligneSeparation{
+.ligneSeparation {
     width: 100%;
     height: 3px;
     background-color: #9999CC;
@@ -358,7 +374,7 @@ header nav{
     margin: 5% 0;
 }
 
-.sectionExtra{
+.sectionExtra {
     width: 100%;
     height: 30vh;
     display: flex;
@@ -367,20 +383,22 @@ header nav{
     margin-bottom: 5%;
 }
 
-.extra01, .extra02, .extra03{
+.extra01,
+.extra02,
+.extra03 {
     width: 30%;
     height: 100%;
     display: flex;
     position: relative;
 }
 
-.sectionExtra img{
+.sectionExtra img {
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
 }
 
-.sectionExtra h4{
+.sectionExtra h4 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -388,7 +406,7 @@ header nav{
     color: white;
 }
 
-.sectionExtra .lirePlus{
+.sectionExtra .lirePlus {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -398,22 +416,23 @@ header nav{
     padding: 2% 5%;
 }
 
+
 /* Footer */
 
-.footer.wrapper{
+.footer.wrapper {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
 
-.infosLeChainon{
+.infosLeChainon {
     width: 100%;
     position: relative;
     top: 0;
     left: 0;
 }
 
-.lienReseauxSociaux{
+.lienReseauxSociaux {
     width: 75%;
     height: 20%;
     display: flex;
@@ -424,14 +443,16 @@ header nav{
     margin: 5vh 0;
 }
 
-.facebook, .instagram, .twitter{
+.facebook,
+.instagram,
+.twitter {
     height: 10vh;
     width: 10vh;
     background-color: #9999CC;
     border-radius: 100px;
 }
 
-.lienReseauxSociaux div img{
+.lienReseauxSociaux div img {
     height: 50%;
     position: relative;
     top: 50%;
@@ -439,11 +460,11 @@ header nav{
     transform: translate(-50%, -50%);
 }
 
-.twitter img{
-    height: 40% !important; 
+.twitter img {
+    height: 40% !important;
 }
 
-.ligneReseauxSociaux{
+.ligneReseauxSociaux {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -451,90 +472,90 @@ header nav{
     background-color: #9999CC;
 }
 
-.piedFooter{
+.piedFooter {
     display: flex;
     width: 100%;
 }
 
-.mentionsLegales{
-    position: relative;
-    flex-basis: calc(100% / 3);
-
-}
-
-.retourTop{
+.mentionsLegales {
     position: relative;
     flex-basis: calc(100% / 3);
 }
 
-.retourTop img{
+.retourTop {
+    position: relative;
+    flex-basis: calc(100% / 3);
+}
+
+.retourTop img {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
+
 /* Animation Logo WIlliam */
 
-.logoBasPage{
+.logoBasPage {
     flex-basis: calc(100% / 3);
     position: relative;
 }
 
-path{
-	stroke:black;
-	stroke-width:1;
-	fill-opacity:0;
+path {
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0;
 }
 
-#L{
-	stroke-dasharray: 330;
-	stroke-dashoffset: 330;
+#L {
+    stroke-dasharray: 330;
+    stroke-dashoffset: 330;
 }
 
-#E{
-	stroke-dasharray: 530;
-	stroke-dashoffset: 530;
+#E {
+    stroke-dasharray: 530;
+    stroke-dashoffset: 530;
 }
 
-#C{
-	stroke-dasharray: 370;
-	stroke-dashoffset: 370;
+#C {
+    stroke-dasharray: 370;
+    stroke-dashoffset: 370;
 }
 
-#H{
-	stroke-dasharray: 470;
-	stroke-dashoffset: 470;
+#H {
+    stroke-dasharray: 470;
+    stroke-dashoffset: 470;
 }
 
-#A{
-	stroke-dasharray: 390;
-	stroke-dashoffset: 390;
-	stroke:#99c;
+#A {
+    stroke-dasharray: 390;
+    stroke-dashoffset: 390;
+    stroke: #99c;
 }
 
-#I{
-	stroke-dasharray: 130;
-	stroke-dashoffset: 130;
+#I {
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
 }
 
-#Nuage{
-	stroke-dasharray: 190;
-	stroke-dashoffset: 190;
-	stroke:#99c;
+#Nuage {
+    stroke-dasharray: 190;
+    stroke-dashoffset: 190;
+    stroke: #99c;
 }
 
-#N{
-	stroke-dasharray: 490;
-	stroke-dashoffset: 490;
+#N {
+    stroke-dasharray: 490;
+    stroke-dashoffset: 490;
 }
 
-#O{
-	stroke-dasharray: 290;
-	stroke-dashoffset: 290;
+#O {
+    stroke-dasharray: 290;
+    stroke-dashoffset: 290;
 }
 
-#N-2{
-	stroke-dasharray: 490;
-	stroke-dashoffset: 490;
+#N-2 {
+    stroke-dasharray: 490;
+    stroke-dashoffset: 490;
 }
