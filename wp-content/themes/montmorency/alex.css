@@ -1,99 +1,151 @@
-  .titreprincipal{
-    font-size: 28pt;
-    position: relative; 
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #9999CC;
-    margin-top: 5%;
-  }
-  
-  .lignetitre {
-    width: 100%;
-    height: 2px;
-    background-color: #9999CC;
-  }
-  
-  /* Page Service*/
-  
-  .contenu{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 5%;
-  }
-  
-  .imageservice{
-    object-fit: none;
-  }
-  
+.titreprincipal{
+  font-size: 3em;
+  font-family: "Playfare display";
+  position: relative; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #9999CC;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+
+.lignetitre {
+  width: 100%;
+  height: 2px;
+  background-color: #9999CC;
+}
+
+/* Page Service*/
+
+.contenu{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 5%;
+}
+
+.imageservice{
+  object-fit: none;
+}
+
+.descriptionservice{
+  width: 50%;
+  font-size: 14.5pt;
+  font-family: "Nunito";
+}
+
+/* Page Services */
+
+.intro{
+  font-size: 14.5pt;
+  font-family: "Nunito";
+  margin: 5%;
+  text-align: center;
+}
+
+.petiteLigne{
+  width: 10%;
+  height: 2px;
+  background-color: #9999CC;
+  position: relative; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenuServices{
+  margin: 2%;
+}
+
+.section{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.titreService{
+  font-size: 1.7em;
+  color: #9999CC;
+}
+
+.descriptionService{
+  font-size: 14.5pt;
+  font-family: "Nunito";
+}
+
+/* Page partenaires */
+
+.remerciement{
+  font-size: 14.5pt;
+  font-family: "Nunito";
+  text-align: center;
+  margin: 5%;
+}
+
+.titrePartenaire{
+  font-size: 1.7em;
+  font-family: "Nunito";
+  color: #9999CC;
+  margin-bottom: 2%;
+}
+
+.listePartenaire{
+  font-size: 14.5pt;
+  font-family: "Nunito";
+}
+
+.paragraphePartenaires{
+  margin: 5%;
+}
+
+/* Tablette */
+
+@media screen and (max-width: 768px){
+
   .descriptionservice{
-    width: 50%;
-    font-size: 14.5pt;
-    font-family: "Playfair Display";
+    font-size: 13pt;
   }
-  
-  /* Page Services */
-  
+
   .intro{
-    font-size: 14.5pt;
-    font-family: "Playfair Display";
-    margin: 5%;
-    text-align: center;
+    font-size: 13pt;
   }
-  
-  .petiteLigne{
-    width: 10%;
-    height: 2px;
-    background-color: #9999CC;
-    position: relative; 
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .contenuServices{
-    margin: 2%;
-  }
-  
-  .section{
-    display: flex;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  
-  .titreService{
-    font-size: 17pt;
-    color: #9999CC;
-  }
-  
+
   .descriptionService{
-    font-size: 14.5pt;
-    font-family: "Playfair Display";
+    font-size: 13pt;
   }
-  
-  /* Page partenaires */
-  
+
   .remerciement{
-    font-size: 14.5pt;
-    font-family: "Playfair Display";
-    text-align: center;
-    margin: 5%;
+    font-size: 13pt;
   }
-  
-  .titrePartenaire{
-    font-size: 17pt;
-    font-family: Nunito;
-    color: #9999CC;
-    margin-bottom: 2%;
-  }
-  
+
   .listePartenaire{
-    font-size: 14.5pt;
-    font-family: "Playfair Display";
+    font-size: 13pt;
   }
-  
-  .paragraphePartenaires{
-    margin: 5%;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 375px){
+
+  .descriptionservice{
+    font-size: 12pt;
   }
+
+  .intro{
+    font-size: 12pt;
+  }
+
+  .descriptionService{
+    font-size: 12pt;
+  }
+
+  .remerciement{
+    font-size: 12pt;
+  }
+
+  .listePartenaire{
+    font-size: 12pt;
+  }
+}
