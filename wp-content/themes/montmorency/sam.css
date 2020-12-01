@@ -221,6 +221,13 @@
         text-decoration: none;
         color: white;
     }
+    .sc_lien_nouvelle:link,
+    .sc_lien_nouvelle:visited,
+    .sc_lien_nouvelle:active,
+    .sc_lien_nouvelle:hover {
+        text-decoration: none;
+        color: black;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -446,6 +453,13 @@
     .sc_lien_service:hover {
         text-decoration: none;
         color: white;
+    }
+    .sc_lien_nouvelle:link,
+    .sc_lien_nouvelle:visited,
+    .sc_lien_nouvelle:active,
+    .sc_lien_nouvelle:hover {
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -683,5 +697,12 @@
     .sc_lien_service:hover {
         text-decoration: none;
         color: white;
+    }
+    .sc_lien_nouvelle:link,
+    .sc_lien_nouvelle:visited,
+    .sc_lien_nouvelle:active,
+    .sc_lien_nouvelle:hover {
+        text-decoration: none;
+        color: black;
     }
 }
