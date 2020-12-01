@@ -12,8 +12,12 @@ if (have_posts()) :
 	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
 	while (have_posts()) : the_post();
 ?>
-
 		<article>
+			<div class="divAccueil">
+				<button class="boutonDon">Faire un Don</button>
+				<div class="objectif"><?php the_field('objectif'); ?></div>
+				<div class="temoignage"><?php the_field('temoignage'); ?></div>
+			</div>
 			<div class="sc_titre"><?php the_field('sc_titre_01'); ?></div>
 			<div class="sc_ligne_titre"></div>
 			<div class="sc_carres_services">
@@ -54,7 +58,6 @@ if (have_posts()) :
 					<img src="<?php the_field('sc_nouvelle_03'); ?>">
 					<button class="sc_bouton_nouvelle">Lire plus </button>
 				</div>
-
 			</div>
 		</article>
 	<?php endwhile; // Fermeture de la boucle 

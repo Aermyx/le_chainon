@@ -88,10 +88,84 @@ header nav{
 .open.sub-menu{
     display: block;
     position: absolute;
+    z-index: 2;
 }
 
 .menu-item-has-children > a::after{
     content: " +";
+}
+
+/* Accueil */
+
+.divImageFond{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.divImageFond img{
+    width: 100%;
+    position: absolute;
+    contain: content;
+}
+
+.divAccueil{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.boutonDon{
+    height: 10vw;
+    width: 30vw;
+    border-radius: 100px;
+    background-color: #9999CC;
+    color: #FFFEF5;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    outline: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.objectif{
+    border-radius: 10px;
+    background-color: #9999CC;
+    outline: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30vw;
+    color: #FFFEF5;
+    padding: 3%;
+}
+
+.temoignage{
+    border-radius: 10px;
+    background-color: #9999CC;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30vw;
+    color: #FFFEF5;
+    padding: 3%;
+}
+
+.temoignage span{
+    font-style: italic;
 }
 
 /* Animation Alexandra Bouton */

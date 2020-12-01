@@ -31,27 +31,22 @@
 		 etc. */
 	?>
 >
-
+<div class="divImageFond">
+	<img src="<?php the_field('image_de_fond'); ?>" alt="">
+</div>
 <div class="contenuSiteComplet">
-
 <header>
-	<h1>
-		<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home" class="logoAccueilHeader">
-			<img src="<?php the_field("logo_principal"); ?>" alt="" srcset="">
-		</a>
-	</h1>
-
-	<nav>
-		<?php 
-			// Affiche un menu si dans le tableau de bord un menu à été défini dans cet emplacement
-			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-		?>
-	</nav>
-
-	<?php 
-		// Affiche la description de site se trouvant dans "General Settings" dans l'admin Wordpress
-		bloginfo( 'description' ); 
-	?>
+		<h1>
+			<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home" class="logoAccueilHeader">
+				<img src="<?php the_field("logo_principal"); ?>" alt="" srcset="">
+			</a>
+		</h1>
+		<nav>
+			<?php 
+				// Affiche un menu si dans le tableau de bord un menu à été défini dans cet emplacement
+				wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+			?>
+		</nav>
 </header>
 
 <main><!-- Débute le contenu principal de notre site -->
