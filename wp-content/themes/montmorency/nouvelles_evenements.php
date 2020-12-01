@@ -27,17 +27,17 @@ if ( have_posts() ) :
 			<div class="sectionExtra">
 				<div class="extra01">
 					<img src="<?php the_field("image_extra_1"); ?>" alt="" srcset="">
-					<h4 class="titreExtra01"><?php the_field("titre_extra_1"); ?></h4>
+					<h4 class="titreExtra"><?php the_field("titre_extra_1"); ?></h4>
 					<div class="lirePlus">Lire Plus</div>
 				</div>
 				<div class="extra02">
 					<img src="<?php the_field("image_extra_2"); ?>" alt="" srcset="">
-					<h4 class="titreExtra02"><?php the_field("titre_extra_2"); ?></h4>
+					<h4 class="titreExtra"><?php the_field("titre_extra_2"); ?></h4>
 					<div class="lirePlus">Lire Plus</div>
 				</div>
 				<div class="extra03">
 					<img src="<?php the_field("image_extra_3"); ?>" alt="" srcset="">
-					<h4 class="titreExtra03"><?php the_field("titre_extra_3"); ?></h4>
+					<h4 class="titreExtra"><?php the_field("titre_extra_3"); ?></h4>
 					<div class="lirePlus">Lire Plus</div>
 				</div>
 			</div>
