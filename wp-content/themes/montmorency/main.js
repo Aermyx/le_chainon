@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // Animation logo Will
-const tl_wr_anim_logo = gsap.timeline({
+gsap.timeline({
 	defaults: {
 		ease: "linear",
 		duration: 0.5,
@@ -38,14 +38,25 @@ dropdowns.forEach(dropdown => {
 
 // Marge Histoire
 
-
+const section1 = gsap.timeline({
+    scrollTrigger: {
+      start: 'top center',
+      end: 'bottom center',
+      trigger: '.marge',
+      scrub: true,
+    },
+    defaults:{
+      ease: "linear"
+    }
+})
+.to(".point", {top: "100%"})
 
 // Ligne Paragraphe Histoire
 
 const blocDates = document.querySelectorAll(".blocDate");
 
 blocDates.forEach(blocDate => {
-    const ligneParagraphes = blocDate.querySelector(".ligne");
+    const ligneParagraphes = blocDate.querySelector(".line");
 
     gsap.timeline({
         defaults: {
@@ -53,16 +64,125 @@ blocDates.forEach(blocDate => {
             ease: "power2.out",
         },
         scrollTrigger: {
-            markers: true,
             trigger: blocDate,
-            start: "top 40%",
-            end: "bottom 75%",
-            toggleActions: "restart complete reverse none",
+            start: "top center",
+            end: "bottom center",
+            toggleActions: "restart none reverse none",
         }
+    })
+    .to(ligneParagraphes, {
+        width: "100%",
     })
 })
 
-
-
 // Le Chaînon en chiffres
 
+const deplacementOrdinateur = gsap.timeline({
+    defaults: { ease: 'linear' }
+  })
+.from('.carres1', {
+    transformOrigin: '50% 50%',
+    display: 'none',
+    motionPath: {
+        path: [
+            { x: '-1530vw' }
+        ],
+    },
+    duration: 3,
+    delay: 5,
+})
+.from('.carres2', {
+    transformOrigin: '50% 50%',
+    motionPath: {
+        path: [
+            { x: '1530vw' }
+        ],
+    },
+    duration: 3,
+})
+.from('.carres3', {
+    transformOrigin: '50% 50%',
+    motionPath: {
+        path: [
+            { x: '-1530vw' }
+        ],
+    },
+    duration: 3,
+})
+  
+  /*Déplacement mobile*/
+  const deplacementMobile = gsap.timeline({
+    defaults: { ease: 'linear' },
+  })
+    .from('.carres1', {
+      transformOrigin: '50% 50%',
+      display: 'none',
+      motionPath: {
+        path: [
+          { x: '-1530vw' }
+        ],
+      },
+      duration: 3,
+      delay: 5,
+    })
+    .from('.carres2', {
+      transformOrigin: '50% 50%',
+      motionPath: {
+        path: [
+          { x: '1530vw' }
+        ],
+      },
+      duration: 3,
+    })
+    .from('.carres3', {
+      transformOrigin: '50% 50%',
+      motionPath: {
+        path: [
+          { x: '-1530vw' }
+        ],
+      },
+      duration: 3,
+    })
+  
+  
+  function changementLargeur(x) {
+    if (x.matches) { 
+      deplacementOrdinateur.play()
+      deplacementMobile.kill()
+    } else {
+      deplacementMobile.play()
+    }
+  }
+
+/* Animation Galerie Will */
+
+const elements = document.querySelectorAll(".contenant.galerie > *");
+const cible = document.querySelector(".wrapper.galerie");
+
+gsap.timeline({
+	scrollTrigger: {
+		trigger: cible,
+        scrub: 1,
+		start: "top 50%",
+        end: "bottom top",
+	}
+})
+.to(elements, {x: "-80%"})
+.to(".boxImg1", {boxShadow: "10px 10px 5px grey", scale: 1.1})
+.to(".boxImg1", {boxShadow: "0 0", scale: 1})
+
+.to(elements, {x: "-195%"})
+.to(".boxImg2", {boxShadow: "10px 10px 5px grey", scale: 1.1})
+.to(".boxImg2", {boxShadow: "0 0", scale: 1})
+
+.to(elements, {x: "-310%"})
+.to(".boxImg3", {boxShadow: "10px 10px 5px grey", scale: 1.1})
+.to(".boxImg3", {boxShadow: "0 0", scale: 1})
+
+.to(elements, {x: "-425%"})
+.to(".boxImg4", {boxShadow: "10px 10px 5px grey", scale: 1.1})
+.to(".boxImg4", {boxShadow: "0 0", scale: 1})
+
+.to(elements, {x: "-540%"})
+.to(".boxImg5", {boxShadow: "10px 10px 5px grey", scale: 1.1})
+.to(".boxImg5", {boxShadow: "0 0", scale: 1})

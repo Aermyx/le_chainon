@@ -79,15 +79,16 @@ p.resume strong {
 
 .columnTwo{
     width: 90%;
-    padding-left: 5%;
+    padding: 0 5%;
 }
 
 /* Animation Samuel Ligne sous paragraphe  */
 
-.line {
+.columnTwo .line {
     width:10%;
     height:2px;
     background-color:black;
+    margin-top: 3%; 
 }
 
 /* Animation Alex Ligne du temps */
@@ -200,13 +201,13 @@ p.resume strong {
 
 /* Animation William Galerie */
 
-.sectionGalerie{
+.wrapper.galerie{
 	width: 100%;
-	height: 100%;
+	height: 85vh;
 	position: relative;
 }
 
-.contenu.galerie{
+.contenant.galerie{
 	height: 60%;
 	width: 75%;
 	position: relative;

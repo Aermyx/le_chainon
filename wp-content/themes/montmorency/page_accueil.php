@@ -69,7 +69,6 @@ if (have_posts()) :
 				</div>
 
 			</div>
-			</div>
 		</article>
 	<?php endwhile; // Fermeture de la boucle 
 	?>
@@ -78,9 +77,6 @@ if (have_posts()) :
 ?>
 	<h2>Oh oh, nous n'arrivons pas à voir la page demandée</h2>
 	<img src="https://i.giphy.com/media/l0HU20BZ6LbSEITza/giphy.webp" alt="Page invisible">
-<?php endif; ?>
-
-
-<?php
+<?php endif; 
 // Appel le fichier footer.php
 get_footer(); ?>

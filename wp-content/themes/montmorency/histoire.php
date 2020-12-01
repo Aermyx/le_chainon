@@ -32,9 +32,9 @@ if ( have_posts() ) :
             </div>
             <div class="wrapper datesImportantes">
                 <h3 class="titre datesImportantes">Dates Importantes</h3>
-                <div class= "marge">
-                    <div class= "ligne">
-                        <div class= "point"></div>
+                <div class="marge">
+                    <div class="ligne">
+                        <div class="point"></div>
                     </div> 
                 </div>
                 <div class="contenuDatesImportantes">
@@ -296,7 +296,7 @@ if ( have_posts() ) :
             </div>
             <div class="wrapper chainonChiffres">
                 <h3 class="titre chainonChiffres">Le Chaînon en Chiffres</h3>
-                <div class="contenu samuel chainonChiffres">
+                <div class="contenant samuel chainonChiffres">
                     <div class="carres1">
                         <div class="carre">
                         <div class="texteCarre"> 1932 : </br> Année de la construction </div>
@@ -308,7 +308,6 @@ if ( have_posts() ) :
                         <div class="texteCarre">105 : </br>Nombre d'employés</div>
                         </div>
                     </div>
-
                     <div class="carres2">
                         <div class="carre">
                         <div class="texteCarre">200 : </br> Nombre de bénévoles</div>
@@ -317,7 +316,6 @@ if ( have_posts() ) :
                         <div class="texteCarre">50 000 : </br> Nombre de repas servis par année</div>
                         </div>
                     </div>
-
                     <div class="carres3">
                         <div class="carre">
                         <div class="texteCarre">38𝇍 : </br>Coût de chacun des repas servis grâce aux dons de nourriture</div>
@@ -333,7 +331,7 @@ if ( have_posts() ) :
             </div>
             <div class="wrapper galerie">
                 <h3 class="titre galerie">Galerie</h3>
-                <div class="contenu galerie">
+                <div class="contenant galerie">
                     <div class="divText">
                         <p class="text">Galerie --></p>
                     </div>
