@@ -13,6 +13,7 @@ if (have_posts()) :
 	while (have_posts()) : the_post();
 ?>
 		<article>
+<<<<<<< Updated upstream
 			<div class="divAccueil">
 				<button class="boutonDon">Faire un Don</button>
 				<div class="objectif"><?php the_field('objectif'); ?></div>
@@ -20,22 +21,35 @@ if (have_posts()) :
 			</div>
 			<div class="sc_titre"><?php the_field('sc_titre_01'); ?></div>
 			<div class="sc_ligne_titre"></div>
+=======
+			<?php if (!is_front_page()) :
+				/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?>
+			<?php endif; ?>
+
+			<?php the_content();
+			/* Affiche le contenu principal de la page */
+			?>
+			<h2 class="sc_titre_page"><?php the_field('sc_titre_01'); ?></h2>
+
+			<h3 class="sc_ligne_titre"></h3>
+
+>>>>>>> Stashed changes
 			<div class="sc_carres_services">
 				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_01'); ?></div>
 				</div>
-				<div class="service">
+				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_02'); ?></div>
 				</div>
-				<div class="service">
+				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_03'); ?> </div>
 				</div>
-				<div class="service">
+				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_04'); ?></div>
 				</div>
 			</div>
 
-			<div class="sc_titre"><?php the_field('sc_titre_02'); ?></div>
+			<h3 class="sc_titre"><?php the_field('sc_titre_02'); ?></h3>
 
 			<div class="sc_ligne_titre"> </div>
 
