@@ -42,7 +42,7 @@ if ( have_posts() ) :
 			<img src="<?php the_field('imagehebergement'); ?>" />
 			</div>
 			<div class="contenuServices">
-				<h2 class= "titreService"><a href="<?php the_field("lienherbergement"); ?>" class="lienHebergement"><?php the_field('titrehebergement'); ?> </a></h2>
+				<h2 class= "titreService"><a href="<?php the_field("lienhebergement"); ?>" class="lienHebergement"><?php the_field('titrehebergement'); ?> </a></h2>
 				<p class= "descriptionService"><?php the_field('descriptionhebergement'); ?></p>
 			</div>
 			</div>
