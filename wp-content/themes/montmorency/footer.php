@@ -12,11 +12,11 @@
             <h3 class="titre don">Faites un don</h3>
             <div class="contenu don">
                 <div class="temps don">
-                    <a href="https://www.lechainon.org/fr/faites-un-don"><button class="bouton don">Don en Temps</button></a>
+                    <button class="bouton don">Don en Temps</button>
                     <div class="rond don"></div>
                 </div>
                 <div class="argent don">
-                    <a href="https://www.lechainon.org/fr/faites-un-don"><button class="bouton don">Don en Argent</button></a>
+                    <button class="bouton don">Don en Argent</button>
                     <div class="rond don"></div>
                 </div> 
             </div>

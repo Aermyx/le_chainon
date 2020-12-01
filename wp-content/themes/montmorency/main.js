@@ -81,78 +81,19 @@ const deplacementOrdinateur = gsap.timeline({
     defaults: { ease: 'linear' }
   })
 .from('.carres1', {
-    transformOrigin: '50% 50%',
     display: 'none',
-    motionPath: {
-        path: [
-            { x: '-1530vw' }
-        ],
-    },
+    x: '-1530vw',
     duration: 3,
     delay: 5,
 })
 .from('.carres2', {
-    transformOrigin: '50% 50%',
-    motionPath: {
-        path: [
-            { x: '1530vw' }
-        ],
-    },
+    x: '1530vw',
     duration: 3,
 })
 .from('.carres3', {
-    transformOrigin: '50% 50%',
-    motionPath: {
-        path: [
-            { x: '-1530vw' }
-        ],
-    },
+    x: '-1530vw',
     duration: 3,
 })
-  
-  /*Déplacement mobile*/
-  const deplacementMobile = gsap.timeline({
-    defaults: { ease: 'linear' },
-  })
-    .from('.carres1', {
-      transformOrigin: '50% 50%',
-      display: 'none',
-      motionPath: {
-        path: [
-          { x: '-1530vw' }
-        ],
-      },
-      duration: 3,
-      delay: 5,
-    })
-    .from('.carres2', {
-      transformOrigin: '50% 50%',
-      motionPath: {
-        path: [
-          { x: '1530vw' }
-        ],
-      },
-      duration: 3,
-    })
-    .from('.carres3', {
-      transformOrigin: '50% 50%',
-      motionPath: {
-        path: [
-          { x: '-1530vw' }
-        ],
-      },
-      duration: 3,
-    })
-  
-  
-  function changementLargeur(x) {
-    if (x.matches) { 
-      deplacementOrdinateur.play()
-      deplacementMobile.kill()
-    } else {
-      deplacementMobile.play()
-    }
-  }
 
 /* Animation Galerie Will */
 
@@ -186,3 +127,62 @@ gsap.timeline({
 .to(elements, {x: "-540%"})
 .to(".boxImg5", {boxShadow: "10px 10px 5px grey", scale: 1.1})
 .to(".boxImg5", {boxShadow: "0 0", scale: 1})
+
+/* Animation Alex Don */
+
+const play = document.querySelector('.temps.don');
+const jouer = document.querySelector('.argent.don');
+const rondT = play.querySelector(".rond");
+const rondA = jouer.querySelector(".rond");
+play.addEventListener('click', function() {
+  gsap.timeline()
+    .to(rondT, {
+    opacity: 1
+  })
+  
+   .to(rondT,  
+    { x: "1900%" }, "<")
+  
+  .to(rondT,  
+    { y: "900%" }
+  )
+  
+  .to(rondT,  
+    { x: "0%" }
+  )
+  
+  .to(rondT,  
+    { y: "0%" })
+  
+  .to(rondT, {
+    opacity: 0,
+    onComplete: () => window.location = "https://www.lechainon.org/fr/faites-un-don"
+  }, "-=0.2")
+
+})
+
+jouer.addEventListener('click', function() {
+  gsap.timeline()
+    .to(rondA, {
+    opacity: 1
+  })
+  
+   .to(rondA,  
+    { x: "1900%" }, "<")
+  
+  .to(rondA,  
+    { y: "900%" }
+  )
+  
+  .to(rondA,  
+    { x: "0%" }
+  )
+  
+  .to(rondA,  
+    { y: "0%" })
+  
+  .to(rondA, {
+    opacity: 0,
+    onComplete: () => window.location = "https://www.lechainon.org/fr/faites-un-don"
+  }, "-=0.2")
+})

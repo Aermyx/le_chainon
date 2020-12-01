@@ -8,6 +8,52 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    font-family: 'Nunito';
+    font-size: 14.5pt;
+}
+
+.h3, .h4{
+    font-family: 'Playfair Display';
+    font-size: 1.7em;
+}
+
+.h2{
+    font-family: 'Playfair Display';
+    font-size: 3em;
+}
+
+@media screen and (max-width:768px){
+    .contenuSiteComplet{
+        font-family: 'Nunito';
+        font-size: 13pt;
+    }
+    
+    .h3, .h4{
+        font-family: 'Playfair Display';
+        font-size: 1.7em;
+    }
+    
+    .h2{
+        font-family: 'Playfair Display';
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:375px){
+    .contenuSiteComplet{
+        font-family: 'Nunito';
+        font-size: 12pt;
+    }
+    
+    .h3, .h4{
+        font-family: 'Playfair Display';
+        font-size: 1.7em;
+    }
+    
+    .h2{
+        font-family: 'Playfair Display';
+        font-size: 3em;
+    }
 }
 
 header{
@@ -37,6 +83,7 @@ header nav{
     position: relative;
     display: flex;
     align-items: baseline;
+    font-family: 'Playfair Display';
 }
 
 .menu-menu-principal-container{
@@ -108,7 +155,7 @@ header nav{
 .divImageFond img{
     height: 100%;
     position: absolute;
-    contain: content;
+    object-fit: cover;
 }
 
 .divAccueil{
@@ -198,6 +245,9 @@ header nav{
 
 .argent.don, .temps.don{
     flex-basis: 30%;
+    position: relative;
+    top: 0;
+    left: 0;
 }
   
 .bouton.don{
@@ -264,6 +314,88 @@ header nav{
 
 .boitePerso .poste{
     top: 55%;
+}
+
+/* Nouvelles / Évènements */
+
+.wrapperNetE{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.boiteImageVedette{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.boiteImageVedette img{
+    border-radius: 25px;
+}
+
+.zoneTexteVedette{
+    width: 50%;
+    position: relative;
+}
+
+.zoneTexteVedette .lirePlus{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9999CC;
+    border-radius: 25px;
+    padding: 2% 5%;
+}
+
+.ligneSeparation{
+    width: 100%;
+    height: 3px;
+    background-color: #9999CC;
+    position: relative;
+    margin: 5% 0;
+}
+
+.sectionExtra{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.extra01, .extra02, .extra03{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.sectionExtra img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.sectionExtra h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.sectionExtra .lirePlus{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9999CC;
+    border-radius: 25px;
+    padding: 2% 5%;
 }
 
 /* Footer */
