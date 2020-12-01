@@ -21,24 +21,24 @@ if ( have_posts() ) :
 			<div class="zoneTexteVedette">
 				<h3 class="titreVedette"><?php the_field("titre_vedette"); ?></h3>
 				<p class="texteVedette"><?php the_field("texte_vedette"); ?></p>
-				<div class="lirePlus">Lire Plus</div>
+				<a href="<?php the_field("lire_plus_4"); ?>"><div class="lirePlus">Lire Plus</div></a>
 			</div>
 			<div class="ligneSeparation"></div>
 			<div class="sectionExtra">
 				<div class="extra01">
 					<img src="<?php the_field("image_extra_1"); ?>" alt="" srcset="">
 					<h4 class="titreExtra"><?php the_field("titre_extra_1"); ?></h4>
-					<div class="lirePlus">Lire Plus</div>
+					<a href="<?php the_field("lire_plus_1"); ?>"><div class="lirePlus">Lire Plus</div></a>
 				</div>
 				<div class="extra02">
 					<img src="<?php the_field("image_extra_2"); ?>" alt="" srcset="">
 					<h4 class="titreExtra"><?php the_field("titre_extra_2"); ?></h4>
-					<div class="lirePlus">Lire Plus</div>
+					<a href="<?php the_field("lire_plus_2"); ?>"><div class="lirePlus">Lire Plus</div></a>
 				</div>
 				<div class="extra03">
 					<img src="<?php the_field("image_extra_3"); ?>" alt="" srcset="">
 					<h4 class="titreExtra"><?php the_field("titre_extra_3"); ?></h4>
-					<div class="lirePlus">Lire Plus</div>
+					<a href="<?php the_field("lire_plus_3"); ?>"><div class="lirePlus">Lire Plus</div></a>
 				</div>
 			</div>
 		</div>

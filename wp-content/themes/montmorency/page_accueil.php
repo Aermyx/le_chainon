@@ -14,21 +14,8 @@ if (have_posts()) :
 ?>
 
 		<article>
-			<?php if (!is_front_page()) :
-				/* Affiche le code suivant uniquement si nous ne sommes PAS sur la page d'accueil */ ?>
-				<h2>
-					<?php the_title();
-					/* Titre de la page */ ?>
-				</h2>
-			<?php endif; ?>
-
-			<?php the_content();
-			/* Affiche le contenu principal de la page */
-			?>
-			<h2><?php the_field('sc_titre_01'); ?></h2>
-
+			<div class="sc_titre"><?php the_field('sc_titre_01'); ?></div>
 			<div class="sc_ligne_titre"></div>
-
 			<div class="sc_carres_services">
 				<div class="sc_service">
 					<div class="sc_texte_service"> <?php the_field('sc_service_01'); ?></div>
