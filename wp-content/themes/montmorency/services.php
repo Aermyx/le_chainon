@@ -66,9 +66,6 @@ if ( have_posts() ) :
 				<p class= "descriptionService"><?php the_field('descriptionsoutien'); ?></p>
 			</div>
 			</div>
-
-		<?php get_template_part( 'partials/metas' ); 
-		// Appel le fichier metas.php dans le dossier partials ?>
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>
 		

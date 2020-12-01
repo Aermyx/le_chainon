@@ -54,9 +54,6 @@ if ( have_posts() ) :
 				<h2 class="titrePartenaire"><?php the_field('typepartenaires6'); ?></h2>
 				<p class="listePartenaire"><?php the_field('listepartenaires6'); ?></p>
 			</div>
-
-		<?php get_template_part( 'partials/metas' ); 
-		// Appel le fichier metas.php dans le dossier partials ?>
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>
 		
