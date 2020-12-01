@@ -32,7 +32,7 @@ if ( have_posts() ) :
 				<img src="<?php the_field('imageecoute'); ?>" />
 			</div>
 			<div class="contenuServices">
-				<h2 class= "titreService"><?php the_field('titreecoute'); ?></h2>
+				<h2 class= "titreService"> <a href="<?php the_field("lienecoute"); ?>" class="lienEcoute"> <?php the_field('titreecoute'); ?> </a></h2>
 				<p class= "descriptionService"><?php the_field('descriptionecoute'); ?></p>
 			</div>
 			</div>
@@ -42,7 +42,7 @@ if ( have_posts() ) :
 			<img src="<?php the_field('imagehebergement'); ?>" />
 			</div>
 			<div class="contenuServices">
-				<h2 class= "titreService"><?php the_field('titrehebergement'); ?></h2>
+				<h2 class= "titreService"><a href="<?php the_field("lienherbergement"); ?>" class="lienHebergement"><?php the_field('titrehebergement'); ?> </a></h2>
 				<p class= "descriptionService"><?php the_field('descriptionhebergement'); ?></p>
 			</div>
 			</div>
@@ -52,7 +52,7 @@ if ( have_posts() ) :
 			<img src="<?php the_field('imagepost'); ?>" />
 			</div>
 			<div class="contenuServices">
-				<h2 class= "titreService"><?php the_field('titrepost'); ?></h2>
+				<h2 class= "titreService"><a href="<?php the_field("lienpost"); ?>" class="lienPost"><?php the_field('titrepost'); ?> </a></h2>
 				<p class= "descriptionService"><?php the_field('descriptionpost'); ?></p>
 			</div>
 			</div>
@@ -62,10 +62,13 @@ if ( have_posts() ) :
 			<img src="<?php the_field('imagesoutien'); ?>" />
 			</div>
 			<div class="contenuServices">
-				<h2 class= "titreService"><?php the_field('titresoutien'); ?></h2>
+				<h2 class= "titreService"><a href="<?php the_field("liensoutien"); ?>" class="lienSoutien"><?php the_field('titresoutien'); ?> </a></h2>
 				<p class= "descriptionService"><?php the_field('descriptionsoutien'); ?></p>
 			</div>
 			</div>
+
+		<?php get_template_part( 'partials/metas' ); 
+		// Appel le fichier metas.php dans le dossier partials ?>
 	</article>
 <?php endwhile; // Fermeture de la boucle ?>
 		
