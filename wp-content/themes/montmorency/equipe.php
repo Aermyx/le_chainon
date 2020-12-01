@@ -13,7 +13,7 @@ if ( have_posts() ) :
 ?>
 
 	<article>
-		<h2 class="titreEquipe"><?php the_field("titre_equipe"); ?></h2>
+		<h2 class="titrePage"><?php the_field("titre_page"); ?></h2>
 		<div class="wrapperEquipe">
 			<div class="boitePerso">
 				<div class="nom"><?php the_field("nom_1"); ?></div>
